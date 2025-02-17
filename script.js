@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('container');
     const totalSquares = 800;
@@ -11,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         square.addEventListener('mouseover', () => {
             square.style.backgroundColor = getRandomColor();
             setTimeout(() => {
-                square.style.backgroundColor = 'transparent';
+                square.style.backgroundColor = 'rgb(29, 29, 29)'; // Change back to dark gray after 1 second
             }, 1000);
         });
     }

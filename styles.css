@@ -18,7 +18,7 @@ body {
 .square {
     width: 20px;
     height: 20px;
-    background-color: #000000; /* Initial color set to black */
+    background-color: rgb(29, 29, 29); /* Initial color set to dark gray */
     transition: background-color 1s ease;
 }
 
